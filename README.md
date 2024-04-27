@@ -1,4 +1,4 @@
-Text Decoder
+# Text Decoder
 
 This is a simple Python script that allows you to decode text using various methods, including Base64, Base32, ASCII, hexadecimal, octal, and binary.
 Requirements
@@ -11,7 +11,7 @@ Usage
     Select the desired decoding method by entering the corresponding number.
     The script will display the decoded text in the console.
 
-Available Decoding Methods
+# Available Decoding Methods
 
     Base64: Decodes the text using the Base64 encoding scheme.
     Base32: Decodes the text using the Base32 encoding scheme.
@@ -20,7 +20,7 @@ Available Decoding Methods
     Octal: Decodes the text by interpreting each number as a byte in octal format.
     Binary: Decodes the text by interpreting each sequence of 8 bits as a byte in binary format.
 
-Notes
+# Notes
 
     If the text cannot be decoded using the selected method, a message indicating that decoding was not possible will be displayed.
     The script is designed for quick decoding and is not suitable for intensive or production use.
